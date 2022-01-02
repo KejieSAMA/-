@@ -1,0 +1,72 @@
+html{
+    background-color: rgb(212, 211, 211);
+}
+.box{
+    display: box;
+    height: 277px;
+    width: 340px;
+    margin: 160px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.title{
+    display: flex;
+    margin-left: 25%; 
+    font-size: 24px;
+}
+input{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 28px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: black;
+    border: 1.5px solid rgb(107, 105, 105,0.5);
+}
+::placeholder{
+    color: black;
+}
+#rememberPassword{
+    height: 14px;
+    margin-left: -38%;
+}
+#labelRememberPassword:hover{
+    color: black;
+    text-shadow: 1px 1px 2px red;
+}
+label{
+    font-size: 16px;
+    margin-left: -42%;
+}
+#login{
+    text-align: center;
+}
+button{
+    margin-top: 5%;
+    font-size: 20px;
+    width: 90%;
+    color: white;
+    background-color: #1890ff;
+    border-radius: 5px;
+    border: 0px;
+}
+button:hover{
+    background-color: #3581d3;
+}
+/*.inputBox { 练习，已废弃
+    width: 88%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    height: 24px;
+}*/
